@@ -1,0 +1,47 @@
+{
+  "name": "react-primitives-svg",
+  "version": "0.0.1",
+  "description": "Primitive React SVG Elements Across Targets",
+  "main": "lib/index.dom.js",
+  "react-native": "lib/index.rn.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rm -rf lib && babel -d lib src",
+    "build:example": "browserify ./example.js -o example.build.js -t [ babelify ]",
+    "build:watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chengyin/react-primitives-svg.git"
+  },
+  "keywords": [
+    "react",
+    "svg"
+  ],
+  "author": "Chengyin Liu <chengyin.liu@airbnb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chengyin/react-primitives-svg/issues"
+  },
+  "homepage": "https://github.com/chengyin/react-primitives-svg#readme",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-preset-airbnb": "^2.1.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-prefer-object-spread": "^1.1.0",
+    "eslint-plugin-react": "^6.4.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  }
+}

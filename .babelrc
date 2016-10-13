@@ -1,0 +1,4 @@
+{
+  presets: ["airbnb"],
+  plugins: ["transform-object-rest-spread"]
+}
