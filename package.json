@@ -1,6 +1,6 @@
 {
   "name": "react-primitives-svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Primitive React SVG Elements Across Targets",
   "main": "lib/index.js",
   "scripts": {
