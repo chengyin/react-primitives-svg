@@ -41,7 +41,7 @@
     "react": "*",
     "react-dom": "*",
     "react-native": "*",
-    "react-native-svg": "*"
+    "react-native-svg": "*",
     "react-sketchapp": ">= 1.0"
   }
 }
